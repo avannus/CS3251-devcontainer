@@ -1,12 +1,9 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-	"name": "Ubuntu 18.04 with Python 3.6",
+	"name": "Ubuntu 18.04 with Python 3.6 for ARM",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"build": {
-			// Path is relative to the devcontainer.json file.
-			"dockerfile": "Dockerfile"
-	},
+	"image": "mcr.microsoft.com/vscode/devcontainers/python:dev-3.6-bullseye",
 
 	"customizations": {
 		"vscode": {
